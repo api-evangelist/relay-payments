@@ -1,9 +1,27 @@
 aid: relay-payments
 name: Relay Payments
-description: 'Relay Payments is a company surfaced as a portfolio company of ribbit-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Relay Payments operates a secure digital payment network purpose-built
+  for the freight and trucking industry. Its mobile app and platform let carriers,
+  owner-operators, brokers, and merchants transact contactlessly for diesel fuel,
+  lumper (dock unloading) fees, scales, parking, truck repairs, and freight payments
+  between brokers and carriers, replacing cash, fleet checks, and legacy fuel cards
+  while reducing fraud and streamlining back-office reconciliation. Relay is backed
+  by Ribbit Capital. Partner/system integration is offered under a Relay System Integration
+  Agreement, with developer documentation gated behind partner authentication at docs.relaypayments.com;
+  no public API specification is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/relay-payments/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.relaypayments.com/hubfs/OG%20-%20Home.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Payments
+- Logistics
+- Trucking
+- Freight
+- Fuel
+- Digital Payments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/relay-payments-domain-security.yml
 - type: Website
   url: https://relaypayments.com
+- type: Documentation
+  url: https://docs.relaypayments.com
+- type: Blog
+  url: https://www.relaypayments.com/blog
+- type: TermsOfService
+  url: https://relaypayments.com/legal/member-and-merchant-terms
+- type: PrivacyPolicy
+  url: https://www.relaypayments.com/hubfs/legal/2025.09.29%20-%20Relay%20-%20Privacy%20Policy%20(English).pdf
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
