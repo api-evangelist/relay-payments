@@ -10,6 +10,9 @@ description: 'Relay Payments operates a secure digital payment network purpose-b
   Agreement, with developer documentation gated behind partner authentication at docs.relaypayments.com;
   no public API specification is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/relay-payments/refs/heads/main/apis.yml
+x-api-posture: docs-gated
+x-api-posture-basis: observed
+x-api-posture-note: "Partner/system integration is offered under a Relay System Integration Agreement, with developer documentation gated behind partner authentication at docs.relaypayments.com; no public API specificatio"
 deliveryModel:
   model: saas
   open_source: false
